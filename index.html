@@ -13,9 +13,9 @@
 </head>
 <body>
     <!-- Header section -->
-    <section id="top-banner">
+    <section class="position-scrol" id="top-banner">
     <div class="container">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,16 +33,53 @@
                 </ul>
             </div>
         </div>
-    </nav>
-
+    </nav>   
+    
     </div>
     </section>
-    <main>
-        
-    </main>
-    <footer>
+    <!-- main section -->
+    <section id="body-banner">
 
-    </footer>
+    </section>
+    <!-- footer section -->
+    <section>
+        <div id="carouselExampleDark" class="carousel carousel-dark carousel-fade" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="images/crow-mount.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="images/banner-bottom.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="d-flex justify-content-center align-items-center p-2">
+            <div class="d-flex align-items-center">
+                <div>
+                    <img src="images/logo.png" alt="">
+                </div>
+                <h4 class="ms-2">LOSANGELES<br/> MOUNTAINS</h4>
+            </div>
+            <div>
+                <p>COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </section>
 
 
     <!-- JavaScript CDN -->
